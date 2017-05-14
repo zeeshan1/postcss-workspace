@@ -1,0 +1,29 @@
+.btn{
+		font-size: 1.2rem;
+		background: $mainColor;
+		font-size: 1rem;
+		padding: 8px 20px;
+
+	&--icon{
+		display: inline-block;
+		font-size: 1rem;
+	}
+
+	&__large{
+	
+	}
+
+	&--orange{
+		background: rgba($orange, .5);
+	}
+
+	@mixin atSmall{
+		font-size:1.1rem
+	}
+
+	@mixin atLarge{		
+		color: $white;
+	}
+	
+	
+}
